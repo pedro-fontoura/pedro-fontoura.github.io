@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	</head>
+
+	<body style="background-color: #5b87c5" onload="initialize();" onresize="resize();" oncontextmenu="return false;">
+		<!-- nunuStudio RUNTIME -->
+		<script type="text/javascript" src="../libs/nunu.min_201709132313.js"></script>
+		
+		<!--App code-->
+		<script type="text/javascript">
+			var app;
+
+			//Initialize app
+			function initialize() {	
+				//Create app object
+				app = new NunuApp();
+
+				//Onload enable the vr and fullscreen buttons
+				var logo = document.getElementById("logo");
+				var onLoad = function() {
+					var button = document.getElementById("fullscreen");
+					button.style.visibility = "visible";
+					//Remove logo and loading bar
+					//document.body.removeChild(logo);
+				};
+
+				//On progress callback
+				var bar = document.getElementById("bar");
+				var onProgress = function(event) {
+					if(event.lengthComputable) {
+						var progress = event.loaded / event.total * 100;
+						bar.style.width = progress + "%";
+					}
+				};
+				
+				//Load and run nunu app
+				var file = window.location.href.split("=")[1];
+				if (typeof file != "string" || file.length === 0) {
+					file = "Must have an activity file name.";
+					file += "\n\nUsage: run/?file=activity.isp";
+					alert(file);
+				} else {
+					/*
+					if (!file.endsWith(".isp")) {
+						file += ".isp";
+					}
+					*/
+					app.loadRunProgram("../activities/" + file, onLoad, onProgress);
+				}
+			}
+
+			//Resize nunu app (must be called every time the window is resized)
+			function resize() {
+				app.resize();
+			}
+
+			//Toggle fullscreen mode
+			function toggleFullscreen() {
+				app.setFullscreen();
+			}
+		</script>
+
+		<!--FPS -->
+		<div id="fps" title="frames per second" style="position:absolute; z-index:10000; left:5px; bottom:5px">
+			FPS
+		</div>
+		<!--Fullscreen button-->
+		<div id="fullscreen" onclick="toggleFullscreen();" style="visibility:hidden; position:absolute; z-index:10000; right:30px; bottom:30px">
+			<img style="position:absolute; cursor:pointer; opacity:0.4" width=25 height=25 src="fullscreen.png" onmouseenter="this.style.opacity = 1.0;" onmouseleave="this.style.opacity=0.4;"></img>
+		</div>
+		<!--Logo-->
+		<div id="logo" style="position:absolute; width:50%; left:25%; top:35%">
+			<img src="logo.png" style="width:100%;"></img>
+			<!--Loading bar-->
+			<div style="position:absolute; width:100%; height:7%; left:0%; top:120%; border:none; background-color:orange;">
+				<div id="bar" style="position:absolute; width:0%; height:100%; left:0%; top:0%; background-color:#A6D054">
+			</div>
+		</div>
+	</body>
+</html>

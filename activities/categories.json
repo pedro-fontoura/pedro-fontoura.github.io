@@ -1,0 +1,60 @@
+[
+	{
+	"name":
+		"Geometria e Medida",
+	"id":
+		"GEM",
+	"subcategories":
+		[
+			{"id": "LOE", "name": "Localização e orientação espacial",	"color": "#ed7d31"},
+			{"id": "FIG", "name": "Figuras Geométricas",					"color": "#ed7d31"},
+			{"id": "MDD", "name": "Medida",						"color": "#ffc000"},
+			{"id": "MDD:A", "name": "Medida - Áreas",						"color": "#ffc000"},
+			{"id": "MDD:P", "name": "Medida - Perímetros",					"color": "#c00000"},
+			{"id": "MDD:D", "name": "Medida - Dinheiro",					"color": "#c00000"},
+			{"id": "SOL", "name": "Sólidos Geométricos",					"color": "#70ad47"},
+			{"id": "IDP", "name": "Isometrias do plano",					"color": "#7030a0"}
+		]
+	},
+	
+	{
+	"name":
+		"Números e Operações",
+	"id":
+		"NEO",
+	"subcategories":
+		[
+			{"id": "NNT", "name": "Números naturais",				"color": "#5b87c5"},
+			{"id": "OPR", "name": "Operações",						"color": "#5b87c5"},
+			{"id": "NRP", "name": "Números racionais não negativos",	"color": "#5b87c5"},
+			{"id": "SER", "name": "Sequências e regularidades",		"color": "#5b87c5"}
+		]
+	},
+	
+	{
+	"name":
+		"Organização e Tratamento de Dados",
+	"id":
+		"OTD",
+	"subcategories":
+		[
+			{"id": "RDC", "name": "Representação de conjuntos",		"color": "#5b87c5"},
+			{"id": "RDD", "name": "Representação de dados",			"color": "#5b87c5"},
+			{"id": "TDD", "name": "Tratamento de dados",			"color": "#5b87c5"}
+		]
+	},
+	
+	{
+	"name":
+		"Álgebra",
+	"id":
+		"ALG",
+	"subcategories":
+		[
+			{"id": "EAL", "name": "Expressões algébricas",			"color": "#5b87c5"},
+			{"id": "PPD", "name": "Proporcionalidade direta",		"color": "#5b87c5"},
+			{"id": "GCT", "name": "Gráficos cartesianos",			"color": "#5b87c5"},
+			{"id": "POT", "name": "Potências",						"color": "#5b87c5"}
+		]
+	}
+]

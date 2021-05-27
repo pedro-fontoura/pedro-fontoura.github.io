@@ -1,0 +1,69 @@
+[
+	{"name":"Tangram", "category":"GEM", "subcategory":"FIG", "file":"00_tangram.nsp", "task":"349403015915116", "programmer":"fabioh", "status":"ok", "school":"1" ,"levels":"1/0"},
+	
+	{"name":"Maior ou menor", "category":"GEM", "subcategory":"LOE", "file":"01_towers.nsp", "task":"349403015915121", "programmer":"fabioh", "status":"ok", "school":"1" ,"levels":"1/0"},
+	
+	{"name":"Sequências", "category":"GEM", "subcategory":"FIG", "file":"02_sequences.nsp", "task":"349403015915122", "programmer":"fabioh", "status":"NK", "school":"1" ,"levels":"5/5"},
+	
+	{"name":"Numeração romana", "category":"NEO", "subcategory":"NNT", "file":"03_roman.nsp", "task":"349403015915126", "programmer":"fabioh", "status":"ok", "school":"3" ,"levels":"1/0"},
+	
+	{"name":"Reta numérica", "category":"NEO", "subcategory":"NNT", "file":"04_car.nsp", "task":"347543636078752", "programmer":"pedro", "status":"ok", "school":"1" ,"levels":"5/5"},
+	
+	{"name":"Operações + - x :", "category":"NEO", "subcategory":"OPR", "file":"05_calc.nsp", "task":"350891580081840", "programmer":"cláudio", "status":"ok", "school":"1" ,"levels":"1/0"},
+	
+	{"name":"Comparar áreas", "category":"GEM", "subcategory":"MDD:A", "file":"06_question_forms.nsp", "task":"349403015915117", "programmer":"fabioh", "status":"ok", "school":"2" ,"levels":"1/0"},
+	
+	{"name":"Sequência numérica", "category":"NEO", "subcategory":"NNT", "file":"07_number_sequences.nsp", "task":"350895281789359", "programmer":"cláudio", "status":"ok", "school":"2" ,"levels":"1/0"},
+	
+	{"name":"Medir comprimento", "category":"GEM", "subcategory":"MDD:P", "file":"09_length.nsp", "task":"350895281789361", "programmer":"cláudio", "status":"ok", "school":"1" ,"levels":"4/4"},
+	
+	{"name":"Contar quadrados", "category":"GEM", "subcategory":"FIG", "file":"11_squares.nsp", "task":"347550233542425", "programmer":"pedro", "status":"ok", "school":"1" ,"levels":"1/5"},
+	
+	{"name":"Figuras geométricas 1", "category":"GEM", "subcategory":"FIG", "file":"12_car_geometry.nsp", "task":"347550233542426", "programmer":"pedro", "status":"ok", "school":"1" ,"levels":"1/5"},
+	
+	{"name":"Prisma", "category":"GEM", "subcategory":"SOL", "file":"13_question_solid.nsp", "task":"350895281789362", "programmer":"cláudio", "status":"ok", "school":"4" ,"levels":"1/0"},
+	
+	{"name":"Sólidos geométricos 1", "category":"GEM", "subcategory":"SOL", "file":"14_question_what_solid.nsp", "task":"350895281789363", "programmer":"cláudio", "status":"ok", "school":"1" ,"levels":"3/3"},
+	
+	{"name":"Reflexão", "category":"GEM", "subcategory":"IDP", "file":"15_symmetry.nsp", "task":"349403015915118", "programmer":"fabioh", "status":"ok", "school":"1" ,"levels":"5/5"},
+	
+	{"name":"Figuras geométricas 2", "category":"GEM", "subcategory":"FIG", "file":"16_figures_names.nsp", "task":"347550233542427", "programmer":"pedro", "status":"ok", "school":"1" ,"levels":"5/5"},
+	
+	{"name":"Completa o puzzle", "category":"GEM", "subcategory":"IDP", "file":"17_complete_the_puzzle.nsp", "task":"349403015915119", "programmer":"fabioh", "status":"NK", "school":"3" ,"levels":"1/0"},
+	
+	{"name":"Decomposição de figuras", "category":"GEM", "subcategory":"FIG", "file":"18_problem_with_matches.nsp", "task":"349403015915120", "programmer":"fabioh", "status":"ok", "school":"4" ,"levels":"4/5"},
+	
+	{"name":"Planificação sólidos geométricos", "category":"GEM", "subcategory":"SOL", "file":"19_question_solid.nsp", "task":"350895281789367", "programmer":"cláudio", "status":"ok", "school":"4" ,"levels":"3/5"},
+	
+	{"name":"Áreas de figuras", "category":"GEM", "subcategory":"MDD:A", "file":"21_garden_area.nsp", "task":"350895281789365", "programmer":"cláudio", "status":"ok", "school":"3" ,"levels":"5/5"},
+	
+	{"name":"Poliedros e polígonos", "category":"GEM", "subcategory":"SOL", "file":"22_move_the_geometric_shapes.nsp", "task":"349403015915123", "programmer":"fabioh", "status":"ok", "school":"2" ,"levels":"1/0"},
+	
+	{"name":"Contar triângulos", "category":"GEM", "subcategory":"FIG", "file":"24_triangles.nsp", "task":"347550233542428", "programmer":"pedro", "status":"ok", "school":"1" ,"levels":"1/5"},
+	
+	{"name":"Eixo de simetria", "category":"GEM", "subcategory":"FIG", "file":"25_symmetry.nsp", "task":"347550233542429", "programmer":"pedro", "status":"ok", "school":"2" ,"levels":"5/5"},
+	
+	{"name":"Desenhar figuras", "category":"GEM", "subcategory":"MDD:P", "file":"26_draw_geometry_perimeter.nsp", "task":"349403015915124", "programmer":"fabioh", "status":"ok", "school":"2" ,"levels":"5/5"},
+	
+	{"name":"Construção sólidos geométricos", "category":"GEM", "subcategory":"SOL", "file":"27_make_a_cube.nsp", "task":"349403015915125", "programmer":"fabioh", "status":"ok", "school":"1" ,"levels":"1/0"},
+	
+	{"name":"Isometrias", "category":"GEM", "subcategory":"IDP", "file":"28_question_geometry.nsp", "task":"350895281789366", "programmer":"cláudio", "status":"ok", "school":"1" ,"levels":"1/0"},
+	
+	{"name":"Pintar figuras geométricas", "category":"GEM", "subcategory":"FIG", "file":"30_paint_polygons.nsp", "task":"347550233542430", "programmer":"pedro", "status":"ok", "school":"1" ,"levels":"1/5"},
+	
+	{"name":"Clica no objeto", "category":"GEM", "subcategory":"LOE", "file":"31_spatial_orientation.nsp", "task":"326366397216042", "programmer":"fabiomaia", "status":"ok", "school":"1" ,"levels":"2/2"},
+	
+	{"name":"Arrastar bolas 1", "category":"NEO", "subcategory":"NNT", "file":"32_count.nsp", "task":"337630174345405", "programmer":"fabiomaia", "status":"ok", "school":"1" ,"levels":"5/5"},
+	
+	{"name":"Arrastar bolas 2", "category":"GEM", "subcategory":"LOE", "file":"33_spatial_count.nsp", "task":"337934580549597", "programmer":"fabiomaia", "status":"ok", "school":"1" ,"levels":"5/5"},
+	
+	{"name":"Contar dinheiro 1", "category":"GEM", "subcategory":"MDD:D", "file":"34_count.nsp", "task":"338508947139907", "programmer":"fabiomaia", "status":"ok", "school":"1" ,"levels":"5/5"},
+	
+	{"name":"Contar dinheiro 2", "category":"GEM", "subcategory":"MDD:D", "file":"35_count.nsp", "task":"338508947139910", "programmer":"fabiomaia", "status":"ok", "school":"1" ,"levels":"5/5"},
+	
+	{"name":"Contar dinheiro 3", "category":"GEM", "subcategory":"MDD:D", "file":"36_count.nsp", "task":"338508947139913", "programmer":"fabiomaia", "status":"ok", "school":"1" ,"levels":"5/5"},
+	
+	{"name":"Quantos são", "category":"NEO", "subcategory":"NNT", "file":"37_count.nsp", "task":"338508947139915", "programmer":"fabiomaia", "status":"ok", "school":"1" ,"levels":"5/5"},
+	
+	{"name":"Distinção entre frutos e legumes", "category":"NEO", "subcategory":"NNT", "file":"38_distinguish.nsp", "task":"338542340777451", "programmer":"fabiomaia", "status":"ok", "school":"1" ,"levels":"5/5"}
+]

@@ -1,0 +1,65 @@
+
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.smooth_1s {
+	webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+input::-webkit-input-placeholder {
+	color: #CCC !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+	color: #CCC !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+	color: #CCC !important;  
+}
+ 
+input:-ms-input-placeholder {  
+	color: #CCC !important;  
+}
+
+table.student_performance {
+	position:absolute;
+	border-spacing:0;
+	border-collapse:collapse;
+	_margin-top:30px;
+	margin-bottom:20px;
+	font-family:tahoma;
+}
+table.student_performance tr {
+}
+table.student_performance tr:nth-of-type(1) {
+	background-color:#CC9;
+}
+table.student_performance tr:nth-of-type(1):hover {
+	background-color:#CC9;
+}
+table.student_performance tr:nth-of-type(1) td {
+	padding:5px;
+	border-left:solid 1px white;
+	border-right:solid 1px white;
+}
+table.student_performance tr:hover {
+	background-color:Gainsboro;
+}
+table.student_performance tr.selected {
+	background-color:#dfe7f4;
+}
+table.student_performance tr td {
+	border-bottom:solid 1px #CCC;
+	border-right:dotted 1px #CCC;
+}
