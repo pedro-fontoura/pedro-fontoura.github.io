@@ -251,7 +251,7 @@ LoginScreen.prototype.TestEnter = function() {
 	var password = Lema.eById( "input_password" ).value;
 	
 	if ( password === "lema" ) {
-		if ( username === "tutor@lema" || username === "totora@lema" ) {
+		if ( username === "tutor@lema" || username === "tutora@lema" ) {
 			return {
 				id_pessoa: ( username === "tutor@lema" ? 12 : 11 ),
 				name: ( username === "tutor@lema" ? "Tutor Geometrix" : "Tutora Geometrix" ),
