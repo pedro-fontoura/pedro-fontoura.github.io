@@ -1052,7 +1052,7 @@ Lema.XHR = {
 	localhost: undefined,
 	url: null,
 	json: true,
-	DEFAULT_SERVER: "https://pedro-fontoura.github.io/"
+	DEFAULT_SERVER: "https://pedro-fontoura.github.io"
 };
 
 Lema.XHR.onLocalhost = function () {
